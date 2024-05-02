@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Irving Martinez</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myPage">HOME</a></li>
+        <li><a href="#about-me">ABOUT</a></li>
+        <li><a href="#work-experience">EXPERIENCE</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="Irving-Martinez-Resume.pdf" download>DOWNLOAD RESUME</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Wrapper for banner -->
+<div class="carousel-inner" role="listbox">
+    <div class="item active">
+    <img src="working.png" alt="laptop" width="1600" height="700">
+    <div class="carousel-caption">
+        <h1>Irving Martinez</h1>
+        <h2 class="color-orange">Software Engineer <span class="color-white">at Optum Financial</span></h2>
+        <h3>I solve problems with code</h3>
+    </div>      
+    </div>
+</div>
+
+<!-- Container (The About Me Section) -->
+<div id="about-me" class="container">  
+  <p><b><span class="color-orange"># </span>Hello World.</b></p>
+  <p><b><span class="color-orange"># </span>My name is Irving Martinez, and I'm a testament to the fact that it's never too late to embrace your passion.</b></p>
+  <p><b><span class="color-orange"># </span>I didn't start off as a coding prodigy who grew up hacking computers since I was in the womb. No. That was never me; in fact, I barely knew my way around a computer back in high school. It wasn't until my freshman year of college when I was thrust into an introductory Java course that I discovered the magic of programming. Despite the absent professor, I got really good at writing System.out.print("Hello World"). It was love at first compile.</b></p>
+  <p><b><span class="color-orange"># </span>Unfortunately, it wasn't long before the money ran out, and like most of us, I left college with a broken career compass not knowing what to do with my life. I jumped around jobs, ringing out customers from behind a register, but still coding as a hobby.</b></p>
+    <p><b><span class="color-orange"># </span>My obsession with coding slowly started to grow. I spent long nights and weekends, consuming articles and videos like a junkie, going into rabbit holes and coming out with a new perspective on life. I was gradually honing my skills. I had a growing determination that I was going to become a "real" programmer someday.</b></p>
+  <p><b><span class="color-orange"># </span>Needless to say, through persistence and dedication, I transformed from a hobbyist coder to a seasoned Software Engineer with a proven track record of successfully developing and deploying high-quality applications in the financial industry.</b></p>
+    <p><b><span class="color-orange"># </span>These days you will most likely find me in a hoodie with a pot of highly charged coffee on my desk, my fingers pounding away at the keyboard resuscitating a program back to life. I'm not your run-of-the-mill. I am constantly looking for the next challenge that'll teach me something new about technology and about myself.</b></p>
+</div>
+
+<!-- Container (Work Experience Section) -->
+<div id="work-experience" class="bg-1">
+  <div class="container">
+    <h5><span class="color-orange"><b>Software Engineer</b></span> @ Optum Financial</h5>
+    <p>May 2021 &dash; Current</p>
+    <li>Design and implement custom software solutions to onboard new clients to achieve revenue goals</li>
+    <li>Modernize legacy applications to improve security, reliability and scalability of systems</li>
+    <li>Provide support for Account Executives, Production Support, and Call Center teams by resolving reported failures</li>
+    <li>Develop and support tools for Production Support, Implementation, and QA departments</li>
+    <li>Collaborate with Product Owners, DevOps, Architect, and other Engineers to discuss new solutions</li>
+    <li>Train new team members on current systems ensuring they are self-reliant and resourceful</li>
+
+    <h5><span class="color-orange"><b>QA Engineer</b></span> @ Optum Financial</h5>
+    <p>March 2019 &dash; May 2021</p>
+    <li>Performed end-to-end testing verifying Python and .NET applications, web services, as well as MySQL, MS SQL, and IBM DB2/iSeries table updates</li>
+    <li>Led coordination of testing efforts in staging and production environments by collaborating with stakeholders</li>
+    <li>Automated testing processes with Python/Selenium apps, the .NET/SpecFLow framework, and bash scripts</li>
+
+    <h5><span class="color-orange"><b>Treasury Automation Specialist</b></span> @ Optum Financial</h5>
+    <p>March 2017 &dash; March 2019</p>
+    <li>Significantly reduced department labor costs by automating accounting operations</li>
+    <li>Programmed software to balance MasterCard's data sets against internal iSeries database records</li>
+    <li>Automated report generation in Tableau to aggregate data spanning different DBs and external files</li>
+    <li>Trained others on my scripts to automate day-to-day operations and reduce hours of manual labor</li>
+  </div>
+</div>
+
+<!-- Container (Projects Section) -->
+<div id="projects" class="container">
+    <a href="https://github.com/irvingmp6/kash" class="color-black">
+        <div class="column">
+            <div class="card">
+                <img class="grey-filter" src="budget.jpg" alt="Preview" style="width:96%">
+                <div class="card-container">
+                    <h5 class="color-orange"><strong>project kash</strong></h5>
+                    <p>CLI utility to import Chase bank activity (CSV files) into a database. Uses pandas and SQLLite3 to do the heavy lifting.</p>
+                </div>
+            </div>
+        </div>
+    </a>
+    <a href="https://github.com/irvingmp6/sweb" class="color-black">
+        <div class="column">
+            <div class="card">
+                <img class="grey-filter" src="nodes.png" alt="Preview" style="width:100%">
+                <div class="card-container">
+                    <h5 class="color-orange"><strong>project sweb</strong></h5>
+                    <p>CLI Web Scraping tool used to feth nested URLs from search phrases. Uses Python's Beautiful Soup and Requests.</p>
+                </div>
+            </div>
+        </div>
+    </a>
+    <a href="https://github.com/irvingmp6/pdffefs" class="color-black">
+    <div class="column">
+            <div class="card">
+                <img class="grey-filter" src="under_construction.png" alt="Preview" style="width:100%">
+                <div class="card-container">
+                    <h5 class="color-orange"><strong>project pdffefs</strong></h5>
+                    <p>A CLI tool that allows you to merge multiple PDFs, split a large PDF, and convert images to PDF. Uses PyPDF4 and Pillow.</p>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+<!-- Footer -->
+<footer class="text-center">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <p>Website developed by Irving Martinez</p> 
+  <a href="https://www.linkedin.com/in/irving-mtz/" class="fa fa-linkedin">&nbsp;</a>&nbsp;|
+  <a href="https://www.linkedin.com/in/irving-mtz/" class="fafa-linkedin"><i class="fa">&#xf09b;</i></a>
+</footer>
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip(); 
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 600, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+})
+</script>
+
+</body>
+</html>
