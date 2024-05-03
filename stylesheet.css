@@ -198,3 +198,56 @@
   .fa:hover {
       opacity: 0.7;
   }
+
+  /* Custom Styles for Mobile Responsiveness */
+.navbar-collapse {
+  text-align: center;
+}
+
+.navbar-toggle {
+  margin: 15px 15px 15px auto;
+}
+
+.navbar-nav {
+  display: inline-block;
+  float: none;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+.navbar-collapse.collapse.in {
+  display: block !important;
+}
+
+.carousel-caption {
+  padding-bottom: 8%;
+  text-align: center;
+}
+
+.container {
+  padding: 50px 15px;
+}
+
+body {
+  font-size: 16px;
+}
+
+.column {
+  width: 100%;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.fa {
+  font-size: 24px;
+  padding: 10px;
+}
