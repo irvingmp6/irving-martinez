@@ -251,3 +251,25 @@ footer {
   font-size: 24px;
   padding: 10px;
 }
+
+/* Navbar Styling for Mobile Responsiveness */
+.navbar-default {
+  z-index: 1000; /* Ensure navbar appears above other content */
+}
+
+body {
+  padding-top: 50px; /* Adjust as needed based on navbar height */
+}
+
+.navbar-toggle {
+  margin: 15px 15px 15px auto;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+.navbar-nav {
+  display: inline-block;
+  float: none;
+}
